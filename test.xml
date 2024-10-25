@@ -1,0 +1,96 @@
+
+<test>
+    <!-- Тесты по умолчанию -->
+    <question id="1">
+        <name>Первый вопрос</name>
+        <answer id="1">Первый ответ на вопрос 1</answer>
+        <answer id="2">Второй ответ на вопрос 1</answer>
+        <answer id="3">Третий ответ на вопрос 1</answer>
+    </question>
+    
+    <question id="2">
+        <name>Второй вопрос</name>
+        <answer id="1">Первый ответ на вопрос 2</answer>
+        <answer id="2">Второй ответ на вопрос 2</answer>
+    </question>
+      
+    <!-- Тест - длинные пробелы в начале и в конце -->
+    <question id="3">
+        <name>                 Длинные пробелы в начале и в конце                </name>
+        <answer id="1">   Первый ответ на вопрос    </answer>
+        <answer id="2">        Второй ответ на вопрос        </answer>
+        <answer id="3">                Третий ответ на вопрос                </answer>
+    </question>
+  
+    <!-- Тест - длинные пробелы между словами -->
+    <question id="4">
+        <name>Длинные пробелы между словами</name>
+        <answer id="1" xml:space="preserve">П   ервый ответ на вопрос</answer>
+        <answer id="2" xml:space="preserve">В   то   рой от   вет на в   опрос</answer>
+        <answer id="3" xml:space="preserve">Третий от   вет на во   прос</answer>
+    </question>
+
+    <!-- Тест - разные регистры -->
+    <question id="5">
+        <name>РаЗнЫе РеГиСтРы</name>
+        <answer id="1">пЕрВыЙ ОтВеТ На ВоПрОс</answer>
+        <answer id="2">вТоРоЙ ОтВеТ на вОпРоС</answer>
+    </question>
+
+    <!-- Тест - первые символы не заглавные символы -->
+    <question id="6">
+        <name>первые символы не заглавые</name>
+        <answer id="1">кириллица</answer>
+        <answer id="2">latin alphabet</answer>
+    </question>
+
+    <!-- Тест - спецсимволы -->
+    <question id="7">
+        <name>Спецсимволы! $ %</name>
+        <answer id="1">Первый ответ на вопрос</answer>
+        <answer id="2">Второй ответ на &lt;iвопрос&gt;</answer>
+        <answer id="3">Третий ответ на "вопрос"</answer>
+    </question>
+    
+    <!-- Тест - длинные ответы -->
+    <question id="8">
+        <name>Длинные ответы</name>
+        <answer id="1">Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос Очень длинный ответ на вопрос</answer>
+        <answer id="2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</answer>
+        <answer id="3">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</answer>
+    </question>
+    
+    <!-- Тест - много ответов на вопрос -->
+    <question id="9">
+        <name>Много ответов на вопрос</name>
+        <answer id="1">Первый ответ на вопрос</answer>
+        <answer id="2">Второй ответ на вопрос</answer>
+        <answer id="3">Третий ответ на вопрос</answer>
+        <answer id="4">Четвертый ответ на вопрос</answer>
+        <answer id="5">Пятый ответ на вопрос</answer>
+        <answer id="6">Шестой ответ на вопрос</answer>
+    </question>
+    
+    <!-- Тест - пустые значения -->
+    <question id="10">
+        <name></name>
+        <answer id="1"></answer>
+        <answer id="2"></answer>
+        <answer id="3"></answer>
+    </question>
+
+    <!-- Тест - неправильная нумерация вопроса --> 
+    <question id="5">
+        <name>Неправильная нумерация</name>
+        <answer id="9">Первый ответ на вопрос</answer>
+        <answer id="4">Второй ответ на вопрос </answer>
+    </question>
+    
+    <!-- Тест - Нет нумерации вопроса --> 
+    <question id="">
+        <name>Нет нумерации вопроса</name>
+        <answer id="">Первый ответ на вопрос</answer>
+        <answer id="">Второй ответ на вопрос </answer>
+    </question>
+
+</test>
